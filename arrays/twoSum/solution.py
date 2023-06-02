@@ -29,12 +29,20 @@ def testBaseCases() :
     pass
 
 def testRegularCases() :
-    answer = Solution.twoSum( nums=[ 2, 7, 4, 5 ], target=12 )
-    print( "Expected %s, solution %s" % ( [ 1, 3 ], answer ) )
-    assert answer == [ 1, 3 ]
+    testValues = [ 
+        { 'nums' : [ 2, 7, 4, 5 ], 'target' : 12, 'indices' : [ 1, 3 ] },
+        { 'nums' : [ -2, 4, 3, 9 ], 'target' : 7, 'indices' : [ 0, 3 ] },
+        { 'nums' : [ 3, 6, 3 ], 'target' : 6, 'indices' : [ 0, 2 ] },
+    ]
+
+    for values in ( testValues ) :
+        answer = Solution.twoSum( nums=values['nums'], target=values['target'] )
+        print( "Expected %s, solution %s" % ( values['indices'], answer ) )
+        assert answer == values['indices']
 
     pass
 
 # run tests
 testBaseCases()
 testRegularCases()
+print("Pass")
