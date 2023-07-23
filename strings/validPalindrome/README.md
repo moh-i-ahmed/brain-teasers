@@ -34,4 +34,4 @@ Space Complexity: **Θ(1)**
     return s == s[::-1]
 ```
 
-**Discussion:** The basic solution does not scale well as it's a bit brute force. The pre-processing alone is resource intensive as the replace operation is could take **Θ(n)** time.
+**Discussion:** The basic solution does not scale well as it's a bit brute force. The pre-processing alone is resource intensive as the replace operation could take **Θ(n)** time.
