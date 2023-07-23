@@ -6,7 +6,7 @@
 
 Each letter in magazine can only be used once in ransomNote.
 
-#### [Basic Solution](/strings/ransomNote/solution.py): Count the occurrences of each letter in both input strings then check if there are enough letters to build *ransomNote*.
+#### [Basic Solution](/hashTable/ransomNote/solution.py): Count the occurrences of each letter in both input strings then check if there are enough letters to build *ransomNote*.
 
 [Leetcode submission](https://leetcode.com/submissions/detail/1002132933/)
 
