@@ -13,7 +13,11 @@
 
 ---
 
-#### [Strings](/strings/) (3)
+#### [Strings](/strings/) (2)
 - [x] [Valid Anagram](/strings/validAnagram/)
 - [x] [Valid Palindrome](/strings/validPalindrome/)
-- [x] [Ransom Note](/strings/ransomNote/)
+
+---
+
+#### [Hash Table](/hashTable/) (1)
+- [x] [Ransom Note](/hashTable/ransomNote/)
