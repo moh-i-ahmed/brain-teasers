@@ -5,11 +5,11 @@
 **Description:** Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
 You must do it in place.
 
-#### [Basic Solution](/searching/setMatrixZeroes/solution.py): Traverse matrix and store rows/columns with zeroes then visit each row and column found and change their values to zeroes (in-place). 
+#### [Θ(m + n) Space Solution](/searching/setMatrixZeroes/solution.py): Traverse matrix and store rows/columns with zeroes then visit each row and column found and change their values to zeroes (in-place).
 
 [Leetcode submission](https://leetcode.com/submissions/detail/1028934697/)
 
-**Explanation:**
+**Explanation:** Θ(m + n) space solution, better than Θ(mn) where a copy of the matrix is made but not as good as the Θ(1) solution.
 
 1. Traverse matrix and mark the row and column of each zero in sets (for uniqueness) to track each respectively, and to avoid having to traverse the entire matrix again.
 2. Visit each marked row and set its values to zero.
