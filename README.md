@@ -2,7 +2,7 @@
 
 > A repo of my solutions (in Python) to Data Structure & Algortihm problems I found interesting from [Leetcode](https://leetcode.com/problems) & [Grind-75](https://www.techinterviewhandbook.org/grind75).
 
-### Problems Solved: 13
+### Problems Solved: 14
 
 #### [Arrays](/arrays/) (5)
 
@@ -27,9 +27,10 @@
 
 ---
 
-#### [Searching](/searching/) (1)
+#### [Searching](/searching/) (2)
 
 - [x] [Binary Search](/searching/binarySearch/)
+- [x] [Search a 2D Matrix](/searching/search2DMatrix//)
 
 ---
 
