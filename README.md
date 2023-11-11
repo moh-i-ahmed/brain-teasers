@@ -2,15 +2,16 @@
 
 > A repo of my solutions (in Python) to Data Structure & Algortihm problems I found interesting from [Leetcode](https://leetcode.com/problems) & [Grind-75](https://www.techinterviewhandbook.org/grind75).
 
-### Problems Solved: 15
+### Problems Solved: 16
 
-#### [Arrays](/arrays/) (5)
+#### [Arrays](/arrays/) (6)
 
 - [x] [Two Sum](/arrays/twoSum/)
 - [x] [Best Time To Buy And Sell Stock](/arrays/bestTimeToBuyAndSellStock/)
 - [x] [Maximum Subarray](/arrays/maximumSubarray/)
 - [x] [Contains Duplicate](/arrays/containsDuplicate/)
 - [x] [Majority Element](/arrays/majorityElement/)
+- [x] [Two Sum II](/arrays/twoSumIISorted/)
 
 ---
 
