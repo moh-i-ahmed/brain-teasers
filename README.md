@@ -27,6 +27,7 @@
 #### [Hash Table](/hashTable/) (1)
 
 - [x] [Ransom Note](/hashTable/ransomNote/)
+- [x] [Group Anagrams](/hashTable/groupAnagrams/)
 
 ---
 

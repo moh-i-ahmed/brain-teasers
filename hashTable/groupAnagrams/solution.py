@@ -1,21 +1,22 @@
+from random import randint
+
 class Solution(object):
     def groupAnagrams(strs):
-        """
-        :type strs: List[str]
-        :rtype: List[List[str]]
-        """
-        if(len(strs) == 0)  : return strs
         
-        anagrams = {}
-        
-        for word in strs:
-            sortedWord = str(sorted(word))
-            if(sortedWord not in anagrams):
-                anagrams[sortedWord] = []
+        # base cases
+        if len(strs) < 2: return [] if len(strs) == 0 else [strs]
+                
+        unique = {}
+
+        for s in strs:
+            uniq = str(sorted(s))
+
+            if uniq not in unique:
+                unique[uniq] = [s]
+            else:
+                unique[uniq].append(s)
             
-            anagrams[sortedWord].append(word)
-            
-        return list(anagrams.values())
+        return list(unique.values())
 
 
 def testCases() :

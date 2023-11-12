@@ -3,9 +3,12 @@
 [Leetcode link](https://leetcode.com/problems/group-anagrams/).
 
 **Description:** Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
-#### [Solution](/strings/groupAnagrams/solution.py): Store each word in a list (hashmap value), using the sorted string as the key.
+#### [Solution](/hashTable/groupAnagrams/solution.py): Sort each string alphabetically and use as hash keys. Store unsorted strings as values to each key.
+
+[Leetcode submission](https://leetcode.com/submissions/detail/1097363902/)
 
 **Explanation:** Create a hash table then iterate through input list of strings:
 
@@ -14,30 +17,9 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
     - if key is present, add unsorted string to the list of values.
 2. Return list of hash table values.
 
-Time Complexity: **Θ(nlog(n))**
+Time Complexity: **Θ(n)**
 Space Complexity: **Θ(n)** - worst case
 
-[Leetcode submission 1](https://leetcode.com/submissions/detail/1034264951/)
-```python
-    """
-    :type strs: List[str]
-    :rtype: List[List[str]]
-    """
-    if(len(strs) == 0)  : return strs
-    
-    anagrams = {}
-    
-    for word in strs:
-        sortedWord = str(sorted(word))
-        if(sortedWord not in anagrams):
-            anagrams[sortedWord] = []
-        
-        anagrams[sortedWord].append(word)
-        
-    return list(anagrams.values())
-```
-
-[Leetcode submission 2](https://leetcode.com/submissions/detail/1097363902/)
 ```python
     # base cases
     if len(strs) < 2: return [] if len(strs) == 0 else [strs]
