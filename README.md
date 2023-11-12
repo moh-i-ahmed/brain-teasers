@@ -2,7 +2,7 @@
 
 > A repo of my solutions (in Python) to Data Structure & Algortihm problems I found interesting from [Leetcode](https://leetcode.com/problems) & [Grind-75](https://www.techinterviewhandbook.org/grind75).
 
-### Problems Solved: 16
+### Problems Solved: 17
 
 #### [Arrays](/arrays/) (6)
 
@@ -15,11 +15,12 @@
 
 ---
 
-#### [Strings](/strings/) (3)
+#### [Strings](/strings/) (4)
 
 - [x] [Valid Anagram](/strings/validAnagram/)
 - [x] [Valid Palindrome](/strings/validPalindrome/)
 - [x] [Group Anagrams](/strings/groupAnagrams/)
+- [x] [Valid Parentheses](/strings/validParentheses/)
 
 ---
 
