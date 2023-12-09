@@ -2,7 +2,7 @@
 
 > A repo of my solutions (in Python) to Data Structure & Algortihm problems I found interesting from [Leetcode](https://leetcode.com/problems) & [Grind-75](https://www.techinterviewhandbook.org/grind75).
 
-### Problems Solved: 17
+### Problems Solved: 18
 
 #### [Arrays](/arrays/) (6)
 
@@ -38,10 +38,11 @@
 
 ---
 
-#### [Stacks & Queues](/stacks&queues/) (2)
+#### [Stacks & Queues](/stacks&queues/) (3)
 
 - [x] [Implement Queue using Stacks](/stacks&queues/implementQueueUsingStacks/)
 - [x] [Implement Stack using Queues](/stacks&queues/implementStackUsingQueues/)
+- [x] [Evaluate Reverse Polish Notation](/stacks&queues/evaluateReversePolishNotation/)
 
 ---
 
